@@ -24,6 +24,7 @@ public class MT {
             System.out.print(" ");
         }
         System.out.println("-");
+        System.out.println();
     }
 
     public int getPosicion(){

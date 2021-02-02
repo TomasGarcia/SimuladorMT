@@ -1,7 +1,7 @@
 # SimuladorMT
-Simulador de Máquinas de Turing para la asignatura de TALF
+Simulador de Máquinas de Turing con el alfabeto "palote" para la asignatura de TALF
 
-Consideraciones a tener en cuenta en el Excel que define la Máquina de Turing:
+Consideraciones a tener en cuenta en el Excel (MT.xlsx) que define la Máquina de Turing (de ahora en adelante MT):
   - K (estados) -> Números [0..n]
   - Σ -> {*, I} (i mayúscula)
   - ɣ -> {L,R,H} + Σ (L, R y H en Mayúsculas para no confundir L con I, tener una mayor claridad)

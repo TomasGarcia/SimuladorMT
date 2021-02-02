@@ -47,28 +47,32 @@ public class Main {
         char expresionCinta;
         String instruccion;
         int transicion;
+        boolean terminado = false;
 
-        while(mt.getExpresionCinta() != 'H'){
+        System.out.println("Estado Inicial de la Cinta: ");
+        while(!terminado){
             mt.printMT();
+
             estadoActual = tablaIT.getEstadoActual();
             expresionCinta = mt.getExpresionCinta();
 
             instruccion = tablaIT.getIntruccion(estadoActual, expresionCinta);
-            System.out.println("Instruccion: " + instruccion);
+            System.out.println("Instruccion Ejecutada: " + instruccion);
             transicion = tablaIT.getTransicion(estadoActual, expresionCinta);
-            System.out.println("Transicion " + transicion);
+            System.out.println("Nuevo Estado K: " + transicion);
 
             switch (instruccion) {
                 case "L" -> mt.left();
                 case "R" -> mt.right();
                 case "*" -> mt.putExpresionCinta('*');
                 case "I" -> mt.putExpresionCinta('I');
-                case "H" -> mt.putExpresionCinta('H');
+                case "H" -> terminado = true;
                 default -> throw new RuntimeException("Caracter Invalido");
             }
             tablaIT.putEstadoActual(transicion);
 
         }
+        System.out.println("Estado Final de la Cinta:");
         mt.printMT();
     }
 
