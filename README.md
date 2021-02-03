@@ -20,4 +20,4 @@ La estructura del Excel es la siguiente:
   - A la derecha en el Excel podemos observar ejemplos de MT, simplemente habría que copiar su contenido, sin incluir las instrucciones) y pegarla en la Tabla anterior.
   
 Por otro lado, la instalación y ejecución del programa simplemente debe ser Clonar el Repositorio, importar el Proyecto a IntelliJ IDEA y Click Derecho -> Run 
-en /src/Main.java o con la Clase Abierta Ctrl+Shift+F10
+en /src/main/java/Main.java o con la Clase Abierta Ctrl+Shift+F10

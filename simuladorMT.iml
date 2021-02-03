@@ -65,11 +65,11 @@
     <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
-          <root url="file://$MODULE_DIR$/jarDependencies" />
+          <root url="file://$MODULE_DIR$/src/main/resources/jarDependencies" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
-        <jarDirectory url="file://$MODULE_DIR$/jarDependencies" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/src/main/resources/jarDependencies" recursive="false" />
       </library>
     </orderEntry>
   </component>

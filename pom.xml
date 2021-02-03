@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>groupId</groupId>
+    <artifactId>simuladorMT</artifactId>
+    <version>1.0</version>
+
+    <properties>
+        <maven.compiler.source>15</maven.compiler.source>
+        <maven.compiler.target>15</maven.compiler.target>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.jar</groupId>
+            <artifactId>commons-collections</artifactId>
+            <version>4.1</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/src/main/resources/jarDependencies/commons-collections4-4.1.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>com.jar</groupId>
+            <artifactId>poi</artifactId>
+            <version>3.17</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/src/main/resources/jarDependencies/poi-3.17.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>com.jar</groupId>
+            <artifactId>poi-ooxml</artifactId>
+            <version>3.17</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/src/main/resources/jarDependencies/poi-ooxml-3.17.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>com.jar</groupId>
+            <artifactId>poi-ooxml-schemas</artifactId>
+            <version>3.17</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/src/main/resources/jarDependencies/poi-ooxml-schemas-3.17.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>com.jar</groupId>
+            <artifactId>xmlbeans</artifactId>
+            <version>3.17</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/src/main/resources/jarDependencies/xmlbeans-2.6.0.jar</systemPath>
+        </dependency>
+    </dependencies>
+</project>
