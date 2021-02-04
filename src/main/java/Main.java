@@ -21,7 +21,8 @@ public class Main {
         String instruccion;
         int transicion;
         tablaIT = new TablaInstruccionTransicion();
-        System.out.println(" ----------------------");
+        System.out.println();
+        System.out.println();
         System.out.print(" | ");
         for(int i = 5; i <= 8; i++) {
             System.out.print(sheet.getRow(startRow).getCell(i) + " | ");
@@ -40,7 +41,6 @@ public class Main {
             startRow++;
         }
         System.out.println();
-        System.out.println("-------------");
         System.out.println();
     }
 
